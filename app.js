@@ -20,10 +20,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Rutas
-app.use('/', router);
+app.use('/',    router);
 
 // Inicialización del servidor
-const puerto = process.env.PORT || 3000;
+const puerto = process.env.PORT || 8080;
 app.listen(puerto, () => {
     console.log(`Servidor iniciado en http://localhost:${puerto}`);
 });
