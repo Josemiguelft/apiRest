@@ -2,6 +2,7 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import router from "./router/index.js";
+import dataBase from "./modules/model.js";
 
 // Constantes
 const __filename = fileURLToPath(import.meta.url);
