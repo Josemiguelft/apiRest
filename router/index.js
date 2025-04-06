@@ -1,7 +1,6 @@
 import express from "express";
 import { sumar, data } from "../modules/librerias.js";
 import json from "body-parser";
-export const router = express.Router();
 
 const router = express.Router();
 
